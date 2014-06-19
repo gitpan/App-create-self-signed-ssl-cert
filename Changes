@@ -1,0 +1,30 @@
+Revision history for App-create-self-signed-ssl-cert
+
+0.04    2014-06-19 (SHARYANTO)
+
+        - No functinal changes.
+
+        - Rename dist from App-CreateSelfSignedSSL to
+          App-create-self-signed-ssl-cert, to reflect the name of the binary.
+
+
+0.03    2014-05-22 (SHARYANTO)
+
+        - Add utility: create-ssl-csr.
+
+        - Add options: --csr-only.
+
+        - [Bugfix] --wildcard option didn't create CN=*.host.com.
+
+
+0.02    2014-03-26 (SHARYANTO)
+
+        - No functional changes.
+
+        - Move function from bin/ to lib/ so it's accessible outside CLI
+          context.
+
+
+0.01    2014-03-26 (SHARYANTO)
+
+        - First release.
